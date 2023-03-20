@@ -1,0 +1,23 @@
+# Broot configurations
+
+# Default flags 
+# g - show git status
+# h - show hidden files
+default_flags = "g"
+
+icon_theme = "vscode"
+
+# Disable mouse capture
+capture_mouse = false
+
+# show triangle in selection
+show_selection_mark = true
+
+
+# Theme
+syntax_theme = "EightiesDark"
+
+imports = [
+  "verbs.toml",
+  {luma = ["dark", "unknown"], file = "catppuccin_mocha.toml"}
+]
